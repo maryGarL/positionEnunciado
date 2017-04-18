@@ -1,0 +1,41 @@
+#divPrincipal-1 #principal-2{
+  margin: 0 auto;
+}
+#divPrincipal-1 {
+background-color: rgb(238, 34, 21);
+display: inline-block;
+width: 200px;
+height: 200px;
+}
+
+#divPrincipal-2{
+  background-color: rgb(15, 111, 200);
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+#divPrincipal-1 #divHijo {
+  background-color: rgb(119, 50, 139);
+  width: 100px;
+  height: 100px;
+  margin: 25% auto;
+}
+#divPrincipal-2 #divHijo{
+  background-color: rgb(79, 159, 36);
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin: 25% auto;
+}
+#divPrincipal-1 #divHijo #divNieto {
+  background-color: rgb(247, 232, 28);
+  width: 40px;
+  height: 40px;
+}
+#divPrincipal-2 #divHijo #divNieto{
+  background-color: rgb(0, 0, 0);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}

@@ -1,3 +1,9 @@
+body{
+  text-align: center;
+}
+#cajapadre{
+  display: inline-block;
+}
 #divPrincipal-1 #principal-2{
   margin: 0 auto;
 }
@@ -6,14 +12,16 @@ background-color: rgb(238, 34, 21);
 display: inline-block;
 width: 200px;
 height: 200px;
+margin-top: 20px;
 }
 
 #divPrincipal-2{
   background-color: rgb(15, 111, 200);
-  display: inline-block;
+  display: block;
   width: 200px;
   height: 200px;
   position: relative;
+  margin-top: 20px;
 }
 #divPrincipal-1 #divHijo {
   background-color: rgb(119, 50, 139);
@@ -26,7 +34,8 @@ height: 200px;
   width: 100px;
   height: 100px;
   position: absolute;
-  margin: 25% auto;
+  left: 50px;
+  bottom: 50px
 }
 #divPrincipal-1 #divHijo #divNieto {
   background-color: rgb(247, 232, 28);
@@ -35,7 +44,9 @@ height: 200px;
 }
 #divPrincipal-2 #divHijo #divNieto{
   background-color: rgb(0, 0, 0);
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   position: absolute;
+  right: 100px;
+  bottom: 100px;
 }
